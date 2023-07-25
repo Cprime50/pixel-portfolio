@@ -1,0 +1,161 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #111;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.contact-info {
+  margin-top: 10px;
+}
+
+.email,
+.phone {
+  margin: 0;
+}
+
+/* Section styles */
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.project-card {
+  background-color: #222;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-details {
+  flex-grow: 1;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.05);
+}
+
+.project-card:hover .view-button {
+  transform: translateY(-10px);
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.view-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Light mode styles */
+.light-mode {
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+.light-mode header {
+  background-color: #ddd;
+}
+
+.light-mode h1 {
+  color: #111;
+}
+
+.light-mode .project-card {
+  background-color: #f4f4f4;
+}
+
+.light-mode .project-image {
+  background-color: #ddd;
+}
+
+.light-mode .view-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.light-mode footer {
+  background-color: #ddd;
+  color: #111;
+}
+.light-mode-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+}
+
+.light-mode-toggle .sun-icon {
+  width: 40px;
+  height: 40px;
+}

@@ -1,126 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Hi, this is shabbydoo's Portfolio Website">
+  <meta name="author" cotent="Shabbydoo">
+  <title>Shabbydoo Portfolio</title>
+  <link rel="icon" href="assets/unnamed.jpg">
+  <link rel="stylesheet" href="css/home_style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="projects.html">Projects</a></li>
+      <li class="nav-item"><a href="resume.html">Resume</a></li>
+      <li class="nav-item"><a href="https://github.com/Cprime50">Github</a></li>
+      <li class="nav-item"><a href="https://www.linkedin.com/in/charles-adepoju-864b58270/">LinkedIn</a></li>
+      <li class="nav-item"><a href="mailto:charlesdpj78@gmail.com">Mail</a></li>
+      <li class="nav-toggle">
+        <label class="switch">
+          <input type="checkbox" id="toggle-mode">
+          <span class="slider"></span>
+        </label>
+      </li>
+    </ul>
+  </nav>
 
-        <!-- Meta tags add info -->
-        <meta charset="utf-8">
-        <meta name="description" content="Dijoraj Senroy's Potfolio Website">
-        <meta name="author" cotent="Dijoraj Senroy">
+  <div class="container">
+    <h1 class="title">Hello, I'm Charles</h1>
+    <p class="subtitle">I'm a software developer who loves to build things</p>
+    <img src="assets/hero.gif" alt="this slowpoke moves" class="responsive-image">
+  </div>
 
-        <!-- Title of page -->
-        <title>Dijoraj's Portfolio</title>
+  <div class="container">
+    <h2 class="section-title">Tech Stack</h2>
+    <p class="section-subtitle">Technologies I am comfortable with</p>
+    <div class="tech-stack">
+      <img class="logo" src="assets/git.png">
+      <img class="logo" src="assets/vue-js.svg">
+      <img class="logo" src="assets/post.png">
+      <img class="logo" src="assets/dj.png">
+      <img class="logo" src="assets/python.jpg">
+      <img class="logo" src="assets/web.png">
+      <img class="logo" src="assets/boot.png">
+    </div>
+  </div>
 
-        <!-- Add External CSS Styling-->
-        <link rel="stylesheet" href="css/home_style.css">
-        <!-- Add title icon -->
-        <link rel="icon" href = "assets/myAvatar.png">
+  <div class="container info-container">
+    <div class="gif-container">
+      <iframe src="https://giphy.com/embed/1yk0v6WtCinP5Ptz6G" id="codegif" frameBorder="0"></iframe>
+    </div>
+    <div class="info">
+      <h3 class="info-title">What can I do for you?</h3>
+      <p class="info-subtitle">
+        I can build you a nice sleek fullstack web app with Vue.js, Django rest Framework,
+         django or Firebase, I can also build you a game
+          or a mobile app or help you with some bug fixes.
+      </p>
+    </div>
+  </div>
 
-        <!-- Add Font from google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <div class="container info-container">
+    <div class="info">
+      <h3 class="info-title">I'm looking to be hired!</h3>
+      <p class="info-subtitle">
+        I'm currently available to work as a freelancer. Hit <a href="https://www.linkedin.com/in/charles-adepoju-864b58270/" class="highlight">Linked in</a> to reach me. You can view my projects, resume, and other contact details from the top links.
+      </p>
+    </div>
+    <div class="gif-container">
+      <img src="assets/pixel.jpeg" alt="pixel" class="pixel-image"></img>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <div class="social-mob">
+        <a href="https://github.com/Cprime50" target="_blank">
+          <img src="assets/GitHub.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/charles-adepoju-864b58270/" target="_blank">
+          <img src="assets/LinkedIn.png" alt="LinkedIn">
+        </a>
+        <a href="mailto:charlesdpj78@gmail.com" target="_blank">
+          <img src="assets/Mail.png" alt="Mail">
+        </a>
+      </div>
+    </div>
+    <span id="to-top">
+      <div class="up-arrow floating-arrow">
+        <a href="#top">
+          <img src="assets/up.png" aria-hidden="true"></i>
+        </a>
+      </div>
+    </span>
+  </footer>
 
-    </head>
-    <body>
-        <!-- Div element used to make top bar-->
-        <div class="topcontainer">
-            <div class="button">
-                <strong>
-                    <a href="resume.html">
-                        Resume
-                    </a>
-                </strong>
-            </div>
-            <div class="button">
-                <strong>
-                    <a href="https://github.com/dijorajsenroy">
-                        Github
-                    </a>
-                </strong>
-            </div>
-            <div class="button">
-                <strong>
-                    <a href="https://www.linkedin.com/in/dijoraj-senroy-47b6b916b/">
-                        Linkedin
-                    </a>
-                </strong>
-            </div>
-            <div class="button">
-                <strong>
-                    <a href="mailto:srdijoraj@gmail.com">
-                        Mail
-                    </a>
-                </strong>
-            </div>
-        </div>
-        <!-- Div element used to make heading-->
-        <div class="">
-            <p class="title"> Hello, I'm Dijoraj </p>
-            <p class="subtitle"> Web Developer and AI Enthusiast </p>
-            <img class="bgimg" src="assets/556534.jpg">
-        </div>
-        <br>
-        <br>
-
-        <!-- Display used technologies here -->
-        <div class="">
-            <p class="title">Tech Stack</p>
-            <p class="subtitle">Technologies I am comfortable with</p>
-        </div>
-        <div class = "midcontainer center">
-            <div>
-                <img class="logo" src=assets/git.png >
-            </div>
-            <div>
-                <img class="logo" src=assets/tf.png>
-            </div>
-            <div>
-                <img class="logo" src=assets/keras.png>
-            </div>
-            <div>
-                <img class="logo" src=assets/dj.png>
-            </div>
-            <div>
-                <img class="logo" src="assets/python.jpg">
-            </div>
-            <div>
-                <img class="logo" src=assets/web.png>
-            </div>
-            <div>
-                <img class="logo" src=assets/boot.png>
-            </div>
-            <div>
-                <img class="logo" src="assets/node.png">
-            </div>
-        </div>
-        <br>
-        <br>
-
-        <!-- Work description flexbox usage -->
-        <div class="infocontainers center">
-            <div>
-                <iframe src="https://giphy.com/embed/1yk0v6WtCinP5Ptz6G" id="codegif" frameBorder="0"></iframe>
-            </div>
-            <div>
-                <p class="ibtitle">What can I do for you?</p>
-                <p class="ibsubtitle">
-                    I'm a python developer who can make <span class="sp">machine learning models</span>, and I dabble in 
-                    <span class="sp">web design.</span> I can make AI solutions and websites and more!
-                </p>
-            </div>
-        </div>
-
-        <!-- Freelance work flexbox usage -->
-        <div class = "infocontainers center">
-            <div>
-                <p class="ibtitle">I'm looking to be hired!</p>
-                <p class="ibsubtitle">
-                    I'm currently available to work as a freelancer, Hit <span class="sp">Mail</span> to reach me. 
-                    You can view my projects, resume, other contact details from the top links.
-                </p>
-            </div>
-            <div>
-                <iframe src="https://giphy.com/embed/8dR1vfhuYrtHW" id= "rocketgif" frameBorder="0"></iframe>
-            </div>
-        </div>
-    </body>
+  <script src="js/home_script.js"></script>
+</body>
 </html>
+
