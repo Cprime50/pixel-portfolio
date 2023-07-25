@@ -9,4 +9,4 @@ You can view the website at: [PixelPort Folio Website](https://https://cprime50.
 
 ## Credits
 
-Credits to [(https://github.com/dijorajsenroy)] for the original design. Thank you for the inspiration!
+Credits to [dijora jsenroy](https://github.com/dijorajsenroy) for the original design. Thank you for the inspiration!
