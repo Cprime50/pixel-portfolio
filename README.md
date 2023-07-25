@@ -1,17 +1,12 @@
-# 8-bit Pixel Art Themed Potfolio Website
+# Pixel Art Themed Portfolio Website
 
-Made using HTML and CSS from scratch. Image Sources are pinterest and google images, I own none of the assets, except ofcourse the Avatars. Website was made as practice inspired from the exercise in Angela Yu's Web Development 2020 Web Development Bootcamp. Font is from google fonts and GIFs from giphy.
-
-
-# Techniques Used:
-
-1. CSS Centering
-2. CSS Flexbox
-3. HTML forms, redirects
-4. Importing fonts, images and GIFs 
-5. Media Queries for Responsive Design (TBD) 
+This is a pixel art-themed portfolio website created using HTML, CSS, and JavaScript
 
 
-# View the website at:
+## View the Website
 
-https://dijorajsenroy.github.io/pixel-themed-portfolio/
+You can view the website at: [PixelPort Folio Website](https://https://cprime50.github.io/pixel-portfolio)
+
+## Credits
+
+Credits to [(https://github.com/dijorajsenroy)] for the original design. Thank you for the inspiration!
